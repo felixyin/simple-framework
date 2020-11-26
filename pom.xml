@@ -12,18 +12,18 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>my-nexus</id>
+            <id>qtrj-nexus</id>
             <url>http://qtrj.i234.me:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>my-nexus</id>
+            <id>qtrj-nexus</id>
             <url>http://qtrj.i234.me:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
     <repositories>
         <repository>
-            <id>my-nexus</id>
+            <id>qtrj-nexus</id>
             <name>maven 私服</name>
             <url>http://qtrj.i234.me:8081/repository/maven-public/</url>
             <snapshots>
